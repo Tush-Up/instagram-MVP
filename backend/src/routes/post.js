@@ -6,12 +6,13 @@ const router = new express.Router();
 
 //create post route
 router.post('/posts', Auth, async(req, res) => {
+    console.log(req.user)
     const { title, caption, photo} = req.body
     try {
         if(!title || !photo ) {
             return res.status(400).send({error: 'Title and photo are required'})
         }
-        const newPost = new Post({title, caption, photo})
+        const newPost = new Post({title, caption, photo, postedBy: req.user._id})
         await newPost.save()
         res.status(201).send(newPost)
     } catch (error) {
@@ -46,7 +47,7 @@ router.patch('/posts/:id', Auth, async(req, res) => {
     }
 
     try {
-        const post = await Post.findOne({ _id: req.params.id})
+        const post = await Post.findOne({ _id: req.params.id, postedBy: req.user._id})
     
         if(!post){
             return res.status(404).send({error:'Post not found'})
@@ -64,7 +65,7 @@ router.patch('/posts/:id', Auth, async(req, res) => {
 //Post delete route
 router.delete('/posts/:id', Auth, async(req, res) => {
     try {
-        const post = await Post.findOne({ _id: req.params.id})
+        const post = await Post.findOne({ _id: req.params.id, postedBy: req.user._id})
         if(!post) {
             res.status(404).send({error: 'No post found'})
         }
