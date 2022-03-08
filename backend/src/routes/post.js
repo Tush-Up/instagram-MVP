@@ -1,10 +1,11 @@
 const express = require('express');
 const Post = require('../models/Post')
+const Auth = require('./privateRoutes')
 
 const router = new express.Router();
 
 //create post route
-router.post('/posts', async(req, res) => {
+router.post('/posts', Auth, async(req, res) => {
     const { title, caption, photo} = req.body
     try {
         if(!title || !photo ) {
@@ -34,7 +35,7 @@ router.get('/posts', async(req, res) => {
 }) 
 
 //update post route
-router.patch('/posts/:id', async(req, res) => {
+router.patch('/posts/:id', Auth, async(req, res) => {
     const updates = Object.keys(req.body)
     const allowedUpdates = ['title', 'caption']
 
@@ -61,7 +62,7 @@ router.patch('/posts/:id', async(req, res) => {
 })
 
 //Post delete route
-router.delete('/posts/:id', async(req, res) => {
+router.delete('/posts/:id', Auth, async(req, res) => {
     try {
         const post = await Post.findOne({ _id: req.params.id})
         if(!post) {

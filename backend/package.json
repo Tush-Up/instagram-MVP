@@ -19,7 +19,12 @@
   "homepage": "https://github.com/breellz/Instagram-MVP#readme",
   "dependencies": {
     "express": "^4.17.3",
-    "mongoose": "^6.2.4"
+    "mongoose": "^6.2.4",
+    "@hapi/joi": "^17.1.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mogoose": "^0.0.1-security"
   },
   "devDependencies": {
     "env-cmd": "^10.1.0",
