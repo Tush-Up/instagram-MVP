@@ -1,8 +1,11 @@
+import React from 'react';
+import Nav from '../../frontend/src/pages/Nav/Nav';
+
 function App() {
   return (
-    <div className="App">
-      Instagram
-    </div>
+    <>
+      <Nav />
+   </>
   );
 }
 
