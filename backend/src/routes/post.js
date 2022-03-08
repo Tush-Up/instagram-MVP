@@ -60,4 +60,18 @@ router.patch('/posts/:id', async(req, res) => {
     }
 })
 
+//Post delete route
+router.delete('/posts/:id', async(req, res) => {
+    try {
+        const post = await Post.findOne({ _id: req.params.id})
+        if(!post) {
+            res.status(404).send({error: 'No post found'})
+        }
+        await post.delete()
+        res.send({post})
+    } catch (error) {
+        res.status(400).send(error)
+    }
+})
+
 module.exports = router
