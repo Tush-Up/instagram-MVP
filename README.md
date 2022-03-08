@@ -5,6 +5,7 @@
 <img src="https://img.shields.io/badge/HTML-<blue>">
 <img src="https://img.shields.io/badge/Javascript-<red>">
 <img src="https://img.shields.io/badge/Shell-<yellow>">
+<img src="https://img.shields.io/badge/CSS-<yellow>">
 <img src="https://img.shields.io/badge/webApp-InstagramMVP-<blue>">
 </p>
 
