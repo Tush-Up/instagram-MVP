@@ -1,6 +1,6 @@
 import React from "react";
 import tushup from '../../asserts/tushup.jpg';
-import "../sidebar/Sidebar.css"
+import "./Sidebar.css"
 import Sticky from "react-sticky-el"
 import Profile from "../Profile/Profile"
 import Suggestions from "../suggestions/Suggestions"

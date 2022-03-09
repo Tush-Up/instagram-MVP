@@ -1,5 +1,5 @@
 import Profile from "../Profile/Profile";
-import "../suggestions/Suggestions.css"
+import "./Suggestions.css"
 
 
 function Suggestions() {

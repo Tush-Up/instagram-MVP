@@ -1,5 +1,5 @@
-import "../Profile/Profile.css";
-import ProfileIcon from "../profileicon/ProfileIcon";
+import "./Profile.css";
+import ProfileIcon from "../../pages/profileicon/ProfileIcon";
 import users from "../data/users";
 
 function Profile(props) {
