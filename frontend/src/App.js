@@ -1,9 +1,7 @@
+import './pages/Feeds/Feeds.css';
+
 function App() {
-  return (
-    <div className="App">
-      Instagram
-    </div>
-  );
+	return <p>Instagram</p>;
 }
 
 export default App;
