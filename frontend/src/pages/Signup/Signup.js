@@ -17,7 +17,8 @@ const Signup = (question, action) => {
           </button>
 
           <div className="lines">
-            <div className="line"></div> <span>OR</span>{" "}
+            <div className="line"></div>
+            <span>OR</span>
             <div className="line"></div>
           </div>
           <form action="">
