@@ -1,5 +1,5 @@
-import { Posts } from '../../Components/Posts';
-import { Comments } from '../../Components/Comments';
+import { Posts } from '../Posts';
+import { Comments } from '../Comments';
 export default function Feeds() {
 	return (
 		<div>
