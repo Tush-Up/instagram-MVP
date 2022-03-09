@@ -91,7 +91,7 @@ router.put('/unlike/:postid', Auth, async (req, res) => {
         }
         const userIndex = post.likes.indexOf(req.user._id)
         if(userIndex === -1) {
-            return res.status(400).send({error: "You haven't liked this picutre"})
+            return res.status(400).send({error: "You haven't liked this picture"})
         }
         post.likes.splice(userIndex, 1)
         await post.save()
