@@ -1,0 +1,40 @@
+.card{
+  position: absolute;
+  left: 35px;
+  top: 70px;
+  width: 614px;
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 8px;
+
+}
+.user{
+  position: relative;
+  top: 2%;
+  left: 22px;
+  width: 614px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.user p{
+  font-family: Segoe UI;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19.95px;
+}
+.picture{
+  border-top: 1px solid grey;
+  position: relative;
+  border-bottom: 1px solid black;
+  height: 60%;
+}
+.reactions{
+  position: relative;
+  top: 9%;
+  left: 23px;
+}
+.reactions:hover{
+  cursor: pointer;
+}
+
+/*MEDIA QUERIES*/
