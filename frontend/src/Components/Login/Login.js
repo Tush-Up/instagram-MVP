@@ -1,5 +1,5 @@
 import React from 'react'
-import './Login.css';
+import './Login.module.css';
 // import Faeye from 'react-icons/lib/fa/eye';
 import Or from "../../asserts/Or.jpg";
 const Login = () => {
