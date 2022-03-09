@@ -1,7 +1,16 @@
+
 import './pages/Feeds/Feeds.css';
+import React from 'react';
+import Nav from '../../frontend/src/pages/Nav/Nav';
+import Sidebar from './pages/sidebar/Sidebar';
 
 function App() {
-	return <p>Instagram</p>;
+  return (
+    <>
+      <Nav />
+      <Sidebar />
+   </>
+  );
 }
 
 export default App;

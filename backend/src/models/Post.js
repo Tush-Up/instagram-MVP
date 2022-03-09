@@ -13,13 +13,12 @@ const postSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    //This will be fixed later when authentication is implemented
-   // likes: [{ type: ObjectId, ref: 'User' }],
-    // postedBy: {
-    //     type: ObjectId,
-    //     required: true,
-    //     ref: 'User'
-    // }
+    likes: [{ type: ObjectId, ref: 'User' }],
+    postedBy: {
+        type: ObjectId,
+        required: true,
+        ref: 'User'
+    }
 }, { timestamps: true });
 
 const Post = mongoose.model('Post', postSchema)
