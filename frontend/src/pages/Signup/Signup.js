@@ -1,6 +1,6 @@
 import React from 'react';
 import './Signup.css';
-import LeftBg from '../../components/LeftBg/LeftBg';
+import LeftBg from '../../Components/LeftBg/LeftBg';
 import appStoreImg from '../../assets/appstore.png';
 import playStoreImg from '../../assets/playstore.png';
 import fbIcon from '../../assets/fb-icon.png';
