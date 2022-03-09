@@ -4,7 +4,7 @@ import bgImage from "../../assets/bg.png";
 import InstaIcon from "../../assets/IGVector.png";
 import logo from "../../assets/logo.png";
 
-const LeftBg = () => {
+const LeftBg = ({question, action}) => {
   return (
     <div className="left">
       <div className="bg-div">
@@ -15,8 +15,8 @@ const LeftBg = () => {
         <img src={logo} alt="Logo" />
 
         <div className="left-texts">
-          <p>Already have an account?</p>
-          <p>Log in</p>
+          <p>{question}</p>
+          <p>{action}</p>
         </div>
       </div>
     </div>

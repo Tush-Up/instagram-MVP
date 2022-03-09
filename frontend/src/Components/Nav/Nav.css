@@ -4,17 +4,17 @@ nav{
     background-color: #fff;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
-li{
+nav li{
     list-style: none;
 }
-.container{
+nav .container{
 max-width: 1200px;
  margin: 0 auto;
   overflow: auto;
   width: 100%;
   padding: 0 1rem;
 }
-.nav-wrapper{
+nav .nav-wrapper{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -22,7 +22,7 @@ max-width: 1200px;
     padding: 0px 20px;
     height: 60px;   
 }
-.searchBar{
+nav .searchBar{
     border-radius: 10px;
     background-color:#f4f4f4;
     display: flex;
@@ -31,10 +31,10 @@ max-width: 1200px;
     width: 40%;
 
 }
-.color{
+nav .color{
     color: #d3d3d3;
 }
-input{
+nav input{
     border: none;
     outline: none;
     width: 100%;
@@ -43,7 +43,7 @@ input{
      background-color:#f4f4f4;
     padding: 0px 10px;
 }
-input::placeholder{
+nav input::placeholder{
     color: #d3d3d3;
 }
 .nav{

@@ -14,7 +14,7 @@ const Nav = () => {
   return (
     <>
       <nav>
-        <div className="container">
+        <div className="container" >
           <div className="nav-wrapper">
             <div className="navLogo">
               <a href="/" className="brand-logo">
