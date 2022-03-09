@@ -1,10 +1,11 @@
-import Signup from "./pages/Signup/Signup";
+import React from 'react';
+import Nav from '../../frontend/src/pages/Nav/Nav';
 
 function App() {
   return (
-    <div className="App">
-      <Signup />
-    </div>
+    <>
+      <Nav />
+   </>
   );
 }
 
