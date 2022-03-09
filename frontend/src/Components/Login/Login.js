@@ -5,8 +5,8 @@ import Or from "../../asserts/Or.jpg";
 const Login = () => {
   return (
     <>
-      <div className="mainform">
-        <form>
+      <div className="login-form">
+        <form >
           <div>
             <h4>Log in to see photos and videos from your friends.</h4>
           </div>

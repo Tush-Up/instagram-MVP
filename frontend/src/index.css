@@ -3,11 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
-.maindiv{
+/* .maindiv{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    /* overflow-y:hidden; */
-}
+    overflow-y:hidden;
+} */
