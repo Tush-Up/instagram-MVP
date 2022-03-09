@@ -1,6 +1,9 @@
 import React from 'react';
 import './Signup.css';
 import LeftBg from '../../components/LeftBg/LeftBg';
+import appStoreImg from '../../assets/appstore.png';
+import playStoreImg from '../../assets/playstore.png';
+import fbIcon from '../../assets/fb-icon.png';
 
 const Signup = () => {
   return (
@@ -11,11 +14,11 @@ const Signup = () => {
 
       <div className="signup-right">
         <div className="signup-main">
-          <h3>Sign up to see photos and videos from your friends</h3>
-          <button className="fb-btn">Log in with Facebook</button>
+          <p>Sign up to see photos and videos from your friends</p>
+          <button className="fb-btn"><img src={fbIcon} alt="facebook icon" /> Log in with Facebook</button>
 
           <div className="lines">
-            <span className="line"></span> Or <span className="line"></span>
+            <div className="line"></div> <span>OR</span> <div className="line"></div>
           </div>
           <form action="">
             <div className="inputs">
@@ -35,7 +38,7 @@ const Signup = () => {
               </div>
             </div>
 
-            <button type="submit">Signup</button>
+            <button className='submit-btn' type="submit">Sign up</button>
 
             <div className="terms">
               <p>
@@ -45,9 +48,12 @@ const Signup = () => {
               </p>
             </div>
           </form>
-          <div>
+          <div className='get-app'>
             <p>Get the app</p>
-            <div></div>
+            <div>
+              <img src={playStoreImg} alt="Playstore" />
+              <img src={appStoreImg} alt="Appstore" />
+            </div>
           </div>
         </div>
       </div>
