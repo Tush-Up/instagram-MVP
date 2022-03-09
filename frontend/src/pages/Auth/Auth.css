@@ -1,0 +1,17 @@
+.auth {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+}
+
+.auth-left {
+  height: 100vh;
+  width: 100%;
+}
+
+.auth-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

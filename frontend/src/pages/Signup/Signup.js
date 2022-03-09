@@ -8,11 +8,7 @@ import fbIcon from '../../assets/fb-icon.png';
 const Signup = (question, action) => {
   
   return (
-    <div className="signup">
-      <div className="signup-left">
-        <LeftBg question="Already have an account?" action="Log in" />
-      </div>
-
+  
       <div className="signup-right">
         <div className="signup-main">
           <p>Sign up to see photos and videos from your friends</p>
@@ -63,7 +59,7 @@ const Signup = (question, action) => {
           </div>
         </div>
       </div>
-    </div>
+   
   );
 }
 
