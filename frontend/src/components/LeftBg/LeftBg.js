@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "./LeftBg.css";
 import bgImage from "../../assets/bg.png";
 import InstaIcon from "../../assets/IGVector.png";
@@ -9,7 +9,7 @@ const LeftBg = ({question, action}) => {
   return (
     <div className="left">
       <div className="bg-div">
-        <img className="bg" src={bgImage} alt="Bg image" />
+        <img className="bg" src={bgImage} alt="Bg" />
       </div>
       <div className="tp">
         <img src={InstaIcon} alt="Instagram Icon" />
