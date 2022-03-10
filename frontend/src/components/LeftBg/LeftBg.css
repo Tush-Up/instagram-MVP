@@ -32,26 +32,30 @@
 }
 
 .tp > img:nth-child(1) {
-    margin-bottom: 10px;
-    width: 7rem;
-    height: 7rem;
+  margin-bottom: 10px;
+  width: 7rem;
+  height: 7rem;
 }
 
 .tp > img:nth-child(2) {
-    height: 3.5rem;
+  height: 3.5rem;
 }
 
 .left-texts {
-    margin: 40px 10px;
-    font-size: 20px;
+  margin: 40px 10px;
+  font-size: 20px;
 }
 
 .left-texts > p:nth-child(1) {
-    color: white;
-    font-weight: 400;
+  font-size: 16px;
+  color: white;
+  font-weight: 400;
 }
 
-.left-texts > p:nth-child(2) {
-    color: white;
-    font-weight: 700;
+.left-texts a,
+.left-texts a:visited {
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
 }

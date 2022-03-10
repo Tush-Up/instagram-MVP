@@ -14,11 +14,15 @@ const Login = (question, action) => {
         <form action="">
           <div className="inputs">
             <div>
-              <input type="text" placeholder="Mobile Number or Email" />
+              <input
+                type="text"
+                placeholder="Mobile Number or Email"
+                required
+              />
             </div>
 
             <div>
-              <input type="password" placeholder="Password" />
+              <input type="password" placeholder="Password" required />
             </div>
           </div>
 

@@ -1,18 +1,19 @@
 import React from "react";
+import { Routes, Route } from "react-router-dom";
 import Signup from "./pages/Signup/Signup";
 import Main from "./pages/Main";
 import Login from "./pages/Login/Login";
 import Auth from "./pages/Auth/Auth";
-import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    // <Routes>
-    //   <Route path="/login" element={<Main />} />
-    //   <Route path="/" element={<Login />} />
-    //   <Route path="/signup" element={<Signup />} />
-    // </Routes>
-    <Auth/>
+    
+      <Routes>
+        <Route path="/" element={<Auth />} />
+        <Route path="/login" element={<Auth />} />
+        <Route path="/signup" element={<Auth />} />
+        <Route path="/feeds" element={<Main />} />
+      </Routes>
   );
 }
 
