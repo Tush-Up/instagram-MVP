@@ -14,8 +14,8 @@
   margin-bottom: 15px;
 }
 
-button {
-  color: #fff;
+.signup-right button {
+  
   font-size: 12px;
   font-weight: 700;
   padding: 10px 30px;
@@ -26,6 +26,7 @@ button {
 }
 
 .fb-btn {
+  color: #fff;
   background-color: #0095f6;
   margin-bottom: 15px;
   display: flex;
@@ -85,6 +86,7 @@ input:focus {
 }
 
 .submit-btn {
+  color: #fff;
   margin-bottom: 15px;
   background-color: rgba(0, 149, 246, 0.75);
 }
