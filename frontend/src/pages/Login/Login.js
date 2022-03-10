@@ -1,9 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router";
-import { Link } from "react-router-dom";
-import "./Login.css";
-import LeftBg from "../../components/LeftBg/LeftBg";
 // import Faeye from 'react-icons/lib/fa/eye';
 import appStoreImg from "../../assets/appstore.png";
 import playStoreImg from "../../assets/playstore.png";
