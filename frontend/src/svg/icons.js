@@ -33,4 +33,15 @@ const HeartFill = ({ onClick }) => {
 		</svg>
 	);
 };
-export { Heart, HeartFill };
+
+const Ellipse = () => {
+	return (
+		<svg width="14" height="4" viewBox="0 0 14 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<circle cx="2" cy="2" r="1.5" fill="#231E1F" fill-opacity="0.75" />
+			<circle cx="7" cy="2" r="1.5" fill="#231E1F" fill-opacity="0.75" />
+			<circle cx="12" cy="2" r="1.5" fill="#231E1F" fill-opacity="0.75" />
+		</svg>
+	);
+};
+
+export { Heart, HeartFill, Ellipse };
