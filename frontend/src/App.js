@@ -1,15 +1,17 @@
-
-import './pages/Feeds/Feeds.css';
-import React from 'react';
-import Nav from '../../frontend/src/pages/Nav/Nav';
-import Sidebar from './pages/sidebar/Sidebar';
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import Main from "./pages/Main";
+import Auth from "./pages/Auth/Auth";
 
 function App() {
   return (
-    <>
-      <Nav />
-      <Sidebar />
-   </>
+    
+      <Routes>
+        <Route path="/" element={<Auth />} />
+        <Route path="/login" element={<Auth />} />
+        <Route path="/signup" element={<Auth />} />
+        <Route path="/feeds" element={<Main />} />
+      </Routes>
   );
 }
 

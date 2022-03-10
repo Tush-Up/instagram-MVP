@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Nav/Nav.css';
+import './Nav.css';
 import {RiSearchLine} from "react-icons/ri";
 import NavLogo from '../../asserts/navLogo.jpg';
 import compass from '../../asserts/compass.jpg';
@@ -14,7 +14,7 @@ const Nav = () => {
   return (
     <>
       <nav>
-        <div className="container">
+        <div className="container" >
           <div className="nav-wrapper">
             <div className="navLogo">
               <a href="/" className="brand-logo">
