@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Login from "../Login/Login";
 import Signup from "../Signup/Signup";
-import LeftBg from "../../components/LeftBg/LeftBg";
+import LeftBg from "../../Components/LeftBg/LeftBg";
 import "./Auth.css";
 
 const Auth = (question, action) => {
