@@ -7,5 +7,12 @@ export function Comments() {
 		setLike(!Like);
 	};
 
-	return <div className="reactions">{Like ? <HeartFill onClick={onClick} /> : <Heart onClick={onClick} />}</div>;
+	return (
+		<div>
+			{' '}
+			<div className="reactions">{Like ? <HeartFill onClick={onClick} /> : <Heart onClick={onClick} />}</div>
+			{/* <p>1 Like</p>
+			<p>TushUp Wallpaper</p> */}
+		</div>
+	);
 }
