@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./LeftBg.css";
 import bgImage from "../../assets/bg.png";
 import InstaIcon from "../../assets/IGVector.png";

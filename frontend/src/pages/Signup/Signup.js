@@ -24,18 +24,18 @@ const Signup = (question, action) => {
           <form action="">
             <div className="inputs">
               <div>
-                <input type="text" placeholder="Mobile Number or Email" />
+                <input type="text" required placeholder="Mobile Number or Email" />
               </div>
               <div>
-                <input type="text" placeholder="Full Name" />
-              </div>
-
-              <div>
-                <input type="text" placeholder="Username" />
+                <input type="text" placeholder="Full Name" required />
               </div>
 
               <div>
-                <input type="password" placeholder="Password" />
+                <input type="text" placeholder="Username" required />
+              </div>
+
+              <div>
+                <input type="password" placeholder="Password" required />
               </div>
             </div>
 
