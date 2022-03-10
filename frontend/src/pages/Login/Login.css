@@ -1,8 +1,8 @@
 .login-fb-btn {
-  background-color: #fff;
+  background-color: white;
   margin-bottom: 15px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  color: #0095F6;
+  color: #0095f6;
 }

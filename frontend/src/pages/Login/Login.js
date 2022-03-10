@@ -5,6 +5,8 @@ import { useNavigate } from "react-router";
 import appStoreImg from "../../assets/appstore.png";
 import playStoreImg from "../../assets/playstore.png";
 import fbIcon from "../../assets/fb-blue.png";
+import './Login.css';
+
 const Login = ({ question, action }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
